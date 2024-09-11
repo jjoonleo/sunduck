@@ -22,3 +22,12 @@ while i < len(inputString):
   else:
     i += 1
 
+result = 0
+for d in data:
+  if(d[0] == '+'):
+    result += d[1]
+  else:
+    result -= d[1]
+
+print(result)
+
