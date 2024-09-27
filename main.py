@@ -15,10 +15,6 @@ while True:
                     vault.delete_content()
                 case 4:
                     vault.change_password()
-                case 5:
-                    vault['is_vault_opened'] = False
-                    print("금고를 잠그고 종료합니다.")
-                    break
                 case _:
                     raise ValueError()
         except:
